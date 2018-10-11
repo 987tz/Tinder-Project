@@ -15,8 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         print("Whats popping")
-        
-        // adams branch
+        print("Adam is a reeee")
     }
 
 
