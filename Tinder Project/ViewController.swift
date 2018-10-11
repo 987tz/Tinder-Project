@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         view.addSubview(loginButton)
         loginButton.center = view.center
         
-        
+        print("Hi")
         
     }
 
