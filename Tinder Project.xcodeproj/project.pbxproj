@@ -11,10 +11,11 @@
 		A59331EEF44B7CDDF3678066 /* Pods_Tinder_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB2DFC566D7DDC11422A79D /* Pods_Tinder_ProjectTests.framework */; };
 		FC0F8580215B253C00D8227C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0F857F215B253C00D8227C /* AppDelegate.swift */; };
 		FC0F8582215B253C00D8227C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0F8581215B253C00D8227C /* ViewController.swift */; };
-		FC0F8585215B253C00D8227C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0F8583215B253C00D8227C /* Main.storyboard */; };
 		FC0F8587215B253E00D8227C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0F8586215B253E00D8227C /* Assets.xcassets */; };
 		FC0F858A215B253E00D8227C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC0F8588215B253E00D8227C /* LaunchScreen.storyboard */; };
 		FC0F8595215B253E00D8227C /* Tinder_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0F8594215B253E00D8227C /* Tinder_ProjectTests.swift */; };
+		FCC5822C2176C9040001017E /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5822B2176C9040001017E /* ColorExtension.swift */; };
+		FCC5822E2176CAE80001017E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC5822D2176CAE80001017E /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +39,14 @@
 		FC0F857C215B253C00D8227C /* Tinder Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tinder Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0F857F215B253C00D8227C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC0F8581215B253C00D8227C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FC0F8584215B253C00D8227C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC0F8586215B253E00D8227C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC0F8589215B253E00D8227C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC0F858B215B253E00D8227C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC0F8590215B253E00D8227C /* Tinder ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tinder ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0F8594215B253E00D8227C /* Tinder_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinder_ProjectTests.swift; sourceTree = "<group>"; };
 		FC0F8596215B253E00D8227C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC5822B2176C9040001017E /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		FCC5822D2176CAE80001017E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,10 +115,11 @@
 			children = (
 				FC0F857F215B253C00D8227C /* AppDelegate.swift */,
 				FC0F8581215B253C00D8227C /* ViewController.swift */,
-				FC0F8583215B253C00D8227C /* Main.storyboard */,
 				FC0F8586215B253E00D8227C /* Assets.xcassets */,
 				FC0F8588215B253E00D8227C /* LaunchScreen.storyboard */,
 				FC0F858B215B253E00D8227C /* Info.plist */,
+				FCC5822B2176C9040001017E /* ColorExtension.swift */,
+				FCC5822D2176CAE80001017E /* CardView.swift */,
 			);
 			path = "Tinder Project";
 			sourceTree = "<group>";
@@ -217,7 +220,6 @@
 			files = (
 				FC0F858A215B253E00D8227C /* LaunchScreen.storyboard in Resources */,
 				FC0F8587215B253E00D8227C /* Assets.xcassets in Resources */,
-				FC0F8585215B253C00D8227C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +306,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCC5822C2176C9040001017E /* ColorExtension.swift in Sources */,
 				FC0F8582215B253C00D8227C /* ViewController.swift in Sources */,
+				FCC5822E2176CAE80001017E /* CardView.swift in Sources */,
 				FC0F8580215B253C00D8227C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,14 +332,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FC0F8583215B253C00D8227C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC0F8584215B253C00D8227C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FC0F8588215B253E00D8227C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -471,7 +467,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Tinder Project/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FrancisFarago.Tinder-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Tinder Project-Bridging-Header.h";
@@ -489,7 +488,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Tinder Project/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FrancisFarago.Tinder-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Tinder Project-Bridging-Header.h";
@@ -506,7 +508,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Tinder ProjectTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FrancisFarago.Tinder-ProjectTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -523,7 +529,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Tinder ProjectTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FrancisFarago.Tinder-ProjectTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
