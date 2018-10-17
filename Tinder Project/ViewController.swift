@@ -8,27 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
-    let loginButton: FBSDKLoginButton = {
-        let button = FBSDKLoginButton()
-        button.readPermissions = ["email"]
-        return button
-    }()
+class ViewController: UIViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.addSubview(loginButton)
-        loginButton.center = view.center
         
-        print("Hi")
-        
+        setUpViews()
     }
-
+    
 
     func setUpViews() {
         view.backgroundColor = UIColor.white
+
+        
     }
     
 }

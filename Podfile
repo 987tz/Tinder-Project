@@ -7,8 +7,9 @@ target 'Tinder Project' do
 
   # Pods for Tinder Project
 
-	
-    pod 'FBSDKLoginKit'
+pod 'FacebookCore'
+pod 'FacebookLogin'
+pod 'FacebookShare'
     
 
   target 'Tinder ProjectTests' do
